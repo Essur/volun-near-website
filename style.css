@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  height: auto;
+}
+
+h1 {
+  
+}
+
+div.header-div {
+  width: min-content;
+  color: white;
+  text-align: center;
+  width: auto;
+  height: 40px;
+  #background-color: #34fd34;
+}
+
+div.nav-div {
+  padding: 25px;
+  text-align: center;
+}
+div.nav-div a {
+  border-radius: 10px;
+  border-style: solid;
+  padding: 3px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
