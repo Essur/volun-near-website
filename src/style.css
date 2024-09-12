@@ -1,10 +1,25 @@
-body {
-  background-color: black;
-  height: auto;
+.sora-<uniquifier> {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
-h1 {
-  
+body {
+  background-image: url("../img/landscape-genered-by-ai.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+}
+
+h1{
+  font-family: "Sora", auto;
+  font-size: 90px;
+  margin: 6px;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 div.header-div {
@@ -13,7 +28,9 @@ div.header-div {
   text-align: center;
   width: auto;
   height: 40px;
-  #background-color: #34fd34;
+  margin: 5px;
+  margin-right: 10px;
+  padding-bottom: 100px;
 }
 
 div.nav-div {
@@ -21,10 +38,51 @@ div.nav-div {
   text-align: center;
 }
 div.nav-div a {
-  border-radius: 10px;
-  border-style: solid;
-  padding: 3px;
-  color: black;
-  background-color: white;
+  padding: 5px;
+  margin-right: 75px;
+  margin-left: 50px;
+  color: #FFF;
   text-decoration: none;
+}
+
+div.nav-div a:hover{
+  color: #82cfd5;
+}
+
+div.main-content{
+  color: #FFF;
+  padding-top: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin: 0 auto;
+  margin-left: 5px;
+  line-height: 30px;
+}
+
+div.main-content img{
+  width: 510px;
+  margin-right: 10px;
+}
+
+div.background-block {
+  height: 1150px;
+  width: 1200px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+div.main-content-2 {
+  padding-top: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+div.main-content-2 img {
+  margin-left: 5px;
 }
