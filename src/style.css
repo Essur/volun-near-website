@@ -55,6 +55,7 @@ div.main-content{
   margin: 0 auto;
   margin-left: 5px;
   line-height: 30px;
+  font-size: 18px;
 }
 div.main-content img{
   width: 510px;
@@ -74,20 +75,28 @@ div.main-content-2 {
   text-align: center;
   display: flex;
   flex-direction: row;
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
   line-height: 30px;
   color: #FFF;
+  font-size: 18px;
 }
+
+div.main-content-2 p{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 div.main-content-2 img {
   width: 510px;
-  
+  margin-left: 5px;
 }
 div.main-content-organizations{
   color: #FFF;
   padding-top: 25px;
   padding-left: 10px;
   line-height: 30px;
+  
 }
 input, select, textarea {
     padding: 10px;
@@ -116,6 +125,7 @@ button.submit-btn:hover {
 div.main-content-join-form {
   margin-left: 15px;
   padding-bottom: 15px;
+  color: #FFF;
 }
 div.main-content-join-form h2{
   text-align: center;
